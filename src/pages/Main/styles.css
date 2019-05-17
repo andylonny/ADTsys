@@ -1,0 +1,17 @@
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin-top: 20px;
+}
+
+.card-group {
+    margin-top: 20px;
+}
+
+.cards {
+    height: 200px;
+    width: 200px;
+}
