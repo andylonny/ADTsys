@@ -34,10 +34,14 @@ export default class Main extends Component {
                 const pokemonResponseData = pokemonResponse.data
                 const sprites = pokemonResponseData.sprites
                 const img = sprites.front_default
-                pokemons.push({
-                    name: pokemon.name,
-                    img
-                })
+                if (img === null) {
+                    this.handleClick()
+                } else {
+                    pokemons.push({
+                        name: pokemon.name,
+                        img
+                    })
+                }                
             }
 
             this.setState({
@@ -49,8 +53,8 @@ export default class Main extends Component {
                     city
                 }
             })
-        } catch (e) {
-            alert("Erro. Tente novamente", e)
+        } catch (err) {
+            alert("Erro. Tente novamente", err)
         }
     }
 
@@ -80,7 +84,6 @@ export default class Main extends Component {
     handleClick = () => {
         const city = this.state.city
         this.loadPokemon(city)
-        this.setState({ city: "" })
         ReactDOM.findDOMNode(this.formControlRef).focus();
     }
 
@@ -136,9 +139,6 @@ export default class Main extends Component {
                 </Form>
                 <Row>
                     <Col>
-                        <p>
-                            <b>Cidade:</b> <span>{pokemonByTemp.city}</span>
-                        </p>
                         <p>
                             <b>Temperatura:</b> <span>{pokemonByTemp.temperature} ºC</span>
                         </p>
