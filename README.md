@@ -7,19 +7,19 @@ Teste realizado para a vaga de desenvolvedor júnior na empresa ADTSys.
 
 <u>Os critérios são:</u>
 
-Lugares onde a temperatura for menor que 5ºC, deve-se retornar um pokémon de gelo.
-Lugares onde a temperatura estiver entre 5ºC e 10ºC, deve-se retornar um pokémon do tipo água.
-Lugares onde a temperatura estiver entre 12ºC e 15ºC, deve-se retornar um pokémon do tipo grama.
-Lugares onde a temperatura estiver entre 15ºC e 21ºC, deve-se retornar um pokémon do tipo terra.
-Lugares onde a temperatura estiver entre 23ºC e 27ºC, deve-se retornar um pokémon do tipo inseto.
-Lugares onde a temperatura estiver entre 27ºC e 33ºC inclusive, deve-se retornar um pokémon do tipo pedra.
-Lugares onde a temperatura for maior que 33ºC, deve-se retornar um pokémon do tipo fogo.
-Para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal.
-E, no caso em que esteja chovendo na região um pokémon elétrico deve ser retornado, independente da temperatura.
-Após a consulta deve-se exibir na tela:
-Temperatural atual da cidade em graus Celsius;
-Se está chovendo ou não;
-Nome do Pokémon seguindo as regras acima.
+Lugares onde a temperatura for menor que 5ºC, deve-se retornar um pokémon de gelo. <br>
+Lugares onde a temperatura estiver entre 5ºC e 10ºC, deve-se retornar um pokémon do tipo água. <br>
+Lugares onde a temperatura estiver entre 12ºC e 15ºC, deve-se retornar um pokémon do tipo grama. <br>
+Lugares onde a temperatura estiver entre 15ºC e 21ºC, deve-se retornar um pokémon do tipo terra. <br>
+Lugares onde a temperatura estiver entre 23ºC e 27ºC, deve-se retornar um pokémon do tipo inseto. <br>
+Lugares onde a temperatura estiver entre 27ºC e 33ºC inclusive, deve-se retornar um pokémon do tipo pedra. <br>
+Lugares onde a temperatura for maior que 33ºC, deve-se retornar um pokémon do tipo fogo. <br>
+Para qualquer outra temperatura, deve-se retornar um pokémon do tipo normal. <br>
+E, no caso em que esteja chovendo na região um pokémon elétrico deve ser retornado, independente da temperatura. <br>
+Após a consulta deve-se exibir na tela: <br>
+Temperatural atual da cidade em graus Celsius; <br>
+Se está chovendo ou não; <br>
+Nome do Pokémon seguindo as regras acima. <br>
 
 <b>OBS:</b> Implementei uma condição para que somente Pokémons com imagem sejam exibidos na pesquisa.
 
